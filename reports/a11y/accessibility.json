@@ -1,0 +1,318 @@
+{
+  "generatedAt": "2026-10-05T18:23:58.371Z",
+  "standard": "WCAG 2.2 Level A + AA (axe-core tags: wcag2a, wcag2aa, wcag21a, wcag21aa, wcag22a, wcag22aa)",
+  "disclaimer": "Automated axe-core results only. Passing these rules does not demonstrate WCAG 2.2 AA conformance; the manual checks listed must also be completed.",
+  "totals": {
+    "targets": 4,
+    "targetsErrored": 0,
+    "violationInstances": 0,
+    "uniqueRules": 0,
+    "nodes": 0,
+    "byImpact": {
+      "critical": 0,
+      "serious": 0,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "successCriteriaFailed": [],
+  "targets": [
+    {
+      "target": "playwright-chromium-home",
+      "label": "Local Playwright (localhost dev server)",
+      "runner": "playwright",
+      "location": "local",
+      "page": {
+        "name": "home",
+        "path": "/"
+      },
+      "url": "http://localhost:4200/",
+      "sessionId": null,
+      "jobUrl": null,
+      "sauceJob": null,
+      "browser": {
+        "browserName": "chromium"
+      },
+      "axeVersion": "4.13.0",
+      "timestamp": "2026-10-05T18:08:12.550Z",
+      "tags": [
+        "wcag2a",
+        "wcag2aa",
+        "wcag21a",
+        "wcag21aa",
+        "wcag22a",
+        "wcag22aa"
+      ],
+      "status": "pass",
+      "counts": {
+        "rulesPassed": 13,
+        "rulesIncomplete": 0,
+        "rulesInapplicable": 50
+      },
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "target": "sauce-android-chrome-home",
+      "label": "Android Chrome (Sauce Android emulator)",
+      "runner": "sauce-labs-webdriverio",
+      "location": "Sauce Labs eu-central-1",
+      "page": {
+        "name": "home",
+        "path": "/"
+      },
+      "url": "http://devin-box:4300/",
+      "sessionId": "a1e7831e11fd49b986d591b9cae9b7b9",
+      "jobUrl": "https://app.eu-central-1.saucelabs.com/tests/a1e7831e11fd49b986d591b9cae9b7b9",
+      "sauceJob": {
+        "name": "WCAG 2.2 AA - Android Chrome",
+        "os": "Linux (Android 16.0 emulator)",
+        "browser": "android",
+        "browser_version": "16.0",
+        "automation_backend": "appium",
+        "status": "complete",
+        "consolidated_status": "passed",
+        "passed": true,
+        "assigned_tunnel_id": "53882a2c7f464fc5a763558ba3ef833e",
+        "video_url": "https://assets.eu-central-1.saucelabs.com/jobs/a1e7831e11fd49b986d591b9cae9b7b9/video.mp4"
+      },
+      "browser": {
+        "browserName": "chrome",
+        "browserVersion": "16.0",
+        "platformName": "Android",
+        "deviceName": "Google Pixel 9 Emulator"
+      },
+      "axeVersion": "4.13.0",
+      "timestamp": "2026-10-05T18:14:33.981Z",
+      "tags": [
+        "wcag2a",
+        "wcag2aa",
+        "wcag21a",
+        "wcag21aa",
+        "wcag22a",
+        "wcag22aa"
+      ],
+      "status": "pass",
+      "counts": {
+        "rulesPassed": 13,
+        "rulesIncomplete": 0,
+        "rulesInapplicable": 50
+      },
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "target": "sauce-desktop-chrome-home",
+      "label": "Desktop Chrome (Windows 11, latest)",
+      "runner": "sauce-labs-webdriverio",
+      "location": "Sauce Labs eu-central-1",
+      "page": {
+        "name": "home",
+        "path": "/"
+      },
+      "url": "http://devin-box:4300/",
+      "sessionId": "b8848779e867481c99385178e3c17526",
+      "jobUrl": "https://app.eu-central-1.saucelabs.com/tests/b8848779e867481c99385178e3c17526",
+      "sauceJob": {
+        "name": "WCAG 2.2 AA - Desktop Chrome",
+        "os": "Windows 11",
+        "browser": "googlechrome",
+        "browser_version": "154.0.8037",
+        "automation_backend": "webdriver",
+        "status": "complete",
+        "consolidated_status": "passed",
+        "passed": true,
+        "assigned_tunnel_id": "53882a2c7f464fc5a763558ba3ef833e",
+        "video_url": "https://assets.eu-central-1.saucelabs.com/jobs/b8848779e867481c99385178e3c17526/video.mp4"
+      },
+      "browser": {
+        "browserName": "chrome",
+        "browserVersion": "154.0.8037.58",
+        "platformName": "Windows 11"
+      },
+      "axeVersion": "4.13.0",
+      "timestamp": "2026-10-05T18:13:24.817Z",
+      "tags": [
+        "wcag2a",
+        "wcag2aa",
+        "wcag21a",
+        "wcag21aa",
+        "wcag22a",
+        "wcag22aa"
+      ],
+      "status": "pass",
+      "counts": {
+        "rulesPassed": 13,
+        "rulesIncomplete": 0,
+        "rulesInapplicable": 50
+      },
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "target": "sauce-ios-safari-home",
+      "label": "iOS Safari (Sauce iOS simulator)",
+      "runner": "sauce-labs-webdriverio",
+      "location": "Sauce Labs eu-central-1",
+      "page": {
+        "name": "home",
+        "path": "/"
+      },
+      "url": "http://devin-box:4300/",
+      "sessionId": "2ff27753c106413d9e51e047cd9096cb",
+      "jobUrl": "https://app.eu-central-1.saucelabs.com/tests/2ff27753c106413d9e51e047cd9096cb",
+      "sauceJob": {
+        "name": "WCAG 2.2 AA - iOS Safari",
+        "os": "Mac 26 (iOS 27.0 simulator)",
+        "browser": "iphone",
+        "browser_version": "27.0",
+        "automation_backend": "appium",
+        "status": "complete",
+        "consolidated_status": "passed",
+        "passed": true,
+        "assigned_tunnel_id": "53882a2c7f464fc5a763558ba3ef833e",
+        "video_url": "https://assets.eu-central-1.saucelabs.com/jobs/2ff27753c106413d9e51e047cd9096cb/video.mp4"
+      },
+      "browser": {
+        "browserName": "Safari",
+        "browserVersion": "27.0",
+        "platformName": "iOS",
+        "deviceName": "iPhone 16 Simulator"
+      },
+      "axeVersion": "4.13.0",
+      "timestamp": "2026-10-05T18:21:39.910Z",
+      "tags": [
+        "wcag2a",
+        "wcag2aa",
+        "wcag21a",
+        "wcag21aa",
+        "wcag22a",
+        "wcag22aa"
+      ],
+      "status": "pass",
+      "counts": {
+        "rulesPassed": 14,
+        "rulesIncomplete": 0,
+        "rulesInapplicable": 49
+      },
+      "violations": [],
+      "incomplete": []
+    }
+  ],
+  "manualChecks": [
+    {
+      "sc": "1.3.2",
+      "name": "Meaningful Sequence",
+      "check": "Reading/DOM order matches visual order.",
+      "status": "not tested (manual)"
+    },
+    {
+      "sc": "1.3.4",
+      "name": "Orientation",
+      "check": "Page works in portrait and landscape on the mobile targets.",
+      "status": "not tested (manual)"
+    },
+    {
+      "sc": "1.4.10",
+      "name": "Reflow",
+      "check": "No 2-D scrolling at 320 CSS px / 400% zoom.",
+      "status": "not tested (manual)"
+    },
+    {
+      "sc": "1.4.11",
+      "name": "Non-text Contrast",
+      "check": "Input borders, focus rings and button boundaries reach 3:1.",
+      "status": "not tested (manual)"
+    },
+    {
+      "sc": "1.4.13",
+      "name": "Content on Hover or Focus",
+      "check": "Any tooltip/popover is dismissible, hoverable, persistent.",
+      "status": "not tested (manual)"
+    },
+    {
+      "sc": "2.1.1 / 2.1.2",
+      "name": "Keyboard / No Keyboard Trap",
+      "check": "All controls operable by keyboard alone; no traps.",
+      "status": "not tested (manual)"
+    },
+    {
+      "sc": "2.4.3",
+      "name": "Focus Order",
+      "check": "Tab order is logical.",
+      "status": "not tested (manual)"
+    },
+    {
+      "sc": "2.4.6",
+      "name": "Headings and Labels",
+      "check": "Headings and labels are descriptive (axe only checks presence).",
+      "status": "not tested (manual)"
+    },
+    {
+      "sc": "2.4.7",
+      "name": "Focus Visible",
+      "check": "Every focusable element shows a visible focus indicator.",
+      "status": "not tested (manual)"
+    },
+    {
+      "sc": "2.4.11",
+      "name": "Focus Not Obscured (Minimum) (new in 2.2)",
+      "check": "Focused element is not hidden by sticky content.",
+      "status": "not tested (manual)"
+    },
+    {
+      "sc": "2.5.7",
+      "name": "Dragging Movements (new in 2.2)",
+      "check": "Any drag interaction has a single-pointer alternative.",
+      "status": "not tested (manual)"
+    },
+    {
+      "sc": "2.5.8",
+      "name": "Target Size (Minimum) (new in 2.2)",
+      "check": "Targets are at least 24x24 CSS px or spaced (axe check is partial).",
+      "status": "not tested (manual)"
+    },
+    {
+      "sc": "3.2.1 / 3.2.2",
+      "name": "On Focus / On Input",
+      "check": "No unexpected context change on focus or input.",
+      "status": "not tested (manual)"
+    },
+    {
+      "sc": "3.2.6",
+      "name": "Consistent Help (new in 2.2)",
+      "check": "Help mechanisms appear in the same relative order across pages.",
+      "status": "not tested (manual)"
+    },
+    {
+      "sc": "3.3.1 / 3.3.3",
+      "name": "Error Identification / Suggestion",
+      "check": "Validation errors are announced in text with suggestions.",
+      "status": "not tested (manual)"
+    },
+    {
+      "sc": "3.3.7",
+      "name": "Redundant Entry (new in 2.2)",
+      "check": "Previously entered info is auto-filled or selectable.",
+      "status": "not tested (manual)"
+    },
+    {
+      "sc": "3.3.8",
+      "name": "Accessible Authentication (Minimum) (new in 2.2)",
+      "check": "No cognitive function test for login, if added.",
+      "status": "not tested (manual)"
+    },
+    {
+      "sc": "4.1.3",
+      "name": "Status Messages",
+      "check": "Submit status is announced by screen readers (VoiceOver/TalkBack test).",
+      "status": "not tested (manual)"
+    },
+    {
+      "sc": "—",
+      "name": "Assistive technology pass",
+      "check": "Screen reader (NVDA/VoiceOver/TalkBack), zoom and voice control walkthrough.",
+      "status": "not tested (manual)"
+    }
+  ]
+}

@@ -8,7 +8,10 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "e2e": "playwright test",
-    "serve:ssr:angular20-saucelabs-accessibility": "node dist/angular20-saucelabs-accessibility/server/server.mjs"
+    "serve:ssr:angular20-saucelabs-accessibility": "node dist/angular20-saucelabs-accessibility/server/server.mjs",
+    "a11y:local": "playwright test e2e/accessibility",
+    "a11y:sauce": "node scripts/a11y/sauce-a11y.mjs",
+    "a11y:report": "node scripts/a11y/build-report.mjs"
   },
   "prettier": {
     "printWidth": 100,
@@ -52,6 +55,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "typescript": "~5.9.2"
+    "typescript": "~5.9.2",
+    "webdriverio": "^9.32.0"
   }
 }
