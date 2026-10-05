@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Accessibility report — WCAG 2.2 A/AA (automated)</title>
+<style>
+body{font:15px/1.5 system-ui,sans-serif;margin:2rem auto;max-width:1200px;padding:0 1rem;color:#1a1a1a}
+table{border-collapse:collapse;width:100%;margin:1rem 0}th,td{border:1px solid #bbb;padding:.4rem .6rem;text-align:left;vertical-align:top}
+th{background:#eef1f5}.pass{color:#0a6b2e;font-weight:600}.error,.critical,.violations{color:#a4000f;font-weight:600}.serious{color:#a4000f}.moderate{color:#7a4a00}
+.note{border-left:4px solid #7a4a00;background:#fff8e8;padding:.6rem 1rem}.cards{display:flex;gap:1rem;flex-wrap:wrap}
+.card{border:1px solid #bbb;border-radius:6px;padding:.6rem 1rem;min-width:8rem}.card b{display:block;font-size:1.6rem}
+figure{display:inline-block;margin:.5rem}code{background:#f3f3f3;padding:0 .2rem}
+</style></head><body>
+<main>
+<h1>Accessibility report — WCAG 2.2 Level A/AA (automated)</h1>
+<p>Generated 2026-10-05T18:23:58.371Z. WCAG 2.2 Level A + AA (axe-core tags: wcag2a, wcag2aa, wcag21a, wcag21aa, wcag22a, wcag22aa)</p>
+<p class="note"><strong>Automated axe-core results only. Passing these rules does not demonstrate WCAG 2.2 AA conformance; the manual checks listed must also be completed.</strong></p>
+<h2>Totals</h2>
+<div class="cards">
+<div class="card"><b>4</b>targets</div>
+<div class="card"><b>0</b>violations</div>
+<div class="card"><b>0</b>critical</div>
+<div class="card"><b>0</b>serious</div>
+<div class="card"><b>0</b>moderate</div>
+<div class="card"><b>0</b>minor</div>
+</div>
+<h2>Targets</h2>
+<table><thead><tr><th>Target</th><th>Environment</th><th>Browser / platform</th><th>Result</th><th>Violations</th><th>Needs review</th><th>Rules passed</th><th>Sauce job</th></tr></thead><tbody>
+<tr><td>playwright-chromium-home</td><td>Local Playwright (localhost dev server)</td><td>chromium</td><td class="pass">pass</td><td>0</td><td>0</td><td>13</td><td>—</td></tr>
+<tr><td>sauce-android-chrome-home</td><td>Android Chrome (Sauce Android emulator)</td><td>chrome · 16.0 · Android · Google Pixel 9 Emulator</td><td class="pass">pass</td><td>0</td><td>0</td><td>13</td><td><a href="https://app.eu-central-1.saucelabs.com/tests/a1e7831e11fd49b986d591b9cae9b7b9">a1e7831e11fd49b986d591b9cae9b7b9</a><br><small>MCP: passed</small></td></tr>
+<tr><td>sauce-desktop-chrome-home</td><td>Desktop Chrome (Windows 11, latest)</td><td>chrome · 154.0.8037.58 · Windows 11</td><td class="pass">pass</td><td>0</td><td>0</td><td>13</td><td><a href="https://app.eu-central-1.saucelabs.com/tests/b8848779e867481c99385178e3c17526">b8848779e867481c99385178e3c17526</a><br><small>MCP: passed</small></td></tr>
+<tr><td>sauce-ios-safari-home</td><td>iOS Safari (Sauce iOS simulator)</td><td>Safari · 27.0 · iOS · iPhone 16 Simulator</td><td class="pass">pass</td><td>0</td><td>0</td><td>14</td><td><a href="https://app.eu-central-1.saucelabs.com/tests/2ff27753c106413d9e51e047cd9096cb">2ff27753c106413d9e51e047cd9096cb</a><br><small>MCP: passed</small></td></tr>
+</tbody></table>
+<h2>Automated violations</h2>
+<p>No automated WCAG 2.2 A/AA violations were detected on any target.</p>
+<h2>Manual WCAG 2.2 AA checks (outstanding)</h2>
+<table><thead><tr><th>SC</th><th>Criterion</th><th>What to verify</th><th>Status</th></tr></thead><tbody>
+<tr><td>1.3.2</td><td>Meaningful Sequence</td><td>Reading/DOM order matches visual order.</td><td>not tested (manual)</td></tr>
+<tr><td>1.3.4</td><td>Orientation</td><td>Page works in portrait and landscape on the mobile targets.</td><td>not tested (manual)</td></tr>
+<tr><td>1.4.10</td><td>Reflow</td><td>No 2-D scrolling at 320 CSS px / 400% zoom.</td><td>not tested (manual)</td></tr>
+<tr><td>1.4.11</td><td>Non-text Contrast</td><td>Input borders, focus rings and button boundaries reach 3:1.</td><td>not tested (manual)</td></tr>
+<tr><td>1.4.13</td><td>Content on Hover or Focus</td><td>Any tooltip/popover is dismissible, hoverable, persistent.</td><td>not tested (manual)</td></tr>
+<tr><td>2.1.1 / 2.1.2</td><td>Keyboard / No Keyboard Trap</td><td>All controls operable by keyboard alone; no traps.</td><td>not tested (manual)</td></tr>
+<tr><td>2.4.3</td><td>Focus Order</td><td>Tab order is logical.</td><td>not tested (manual)</td></tr>
+<tr><td>2.4.6</td><td>Headings and Labels</td><td>Headings and labels are descriptive (axe only checks presence).</td><td>not tested (manual)</td></tr>
+<tr><td>2.4.7</td><td>Focus Visible</td><td>Every focusable element shows a visible focus indicator.</td><td>not tested (manual)</td></tr>
+<tr><td>2.4.11</td><td>Focus Not Obscured (Minimum) (new in 2.2)</td><td>Focused element is not hidden by sticky content.</td><td>not tested (manual)</td></tr>
+<tr><td>2.5.7</td><td>Dragging Movements (new in 2.2)</td><td>Any drag interaction has a single-pointer alternative.</td><td>not tested (manual)</td></tr>
+<tr><td>2.5.8</td><td>Target Size (Minimum) (new in 2.2)</td><td>Targets are at least 24x24 CSS px or spaced (axe check is partial).</td><td>not tested (manual)</td></tr>
+<tr><td>3.2.1 / 3.2.2</td><td>On Focus / On Input</td><td>No unexpected context change on focus or input.</td><td>not tested (manual)</td></tr>
+<tr><td>3.2.6</td><td>Consistent Help (new in 2.2)</td><td>Help mechanisms appear in the same relative order across pages.</td><td>not tested (manual)</td></tr>
+<tr><td>3.3.1 / 3.3.3</td><td>Error Identification / Suggestion</td><td>Validation errors are announced in text with suggestions.</td><td>not tested (manual)</td></tr>
+<tr><td>3.3.7</td><td>Redundant Entry (new in 2.2)</td><td>Previously entered info is auto-filled or selectable.</td><td>not tested (manual)</td></tr>
+<tr><td>3.3.8</td><td>Accessible Authentication (Minimum) (new in 2.2)</td><td>No cognitive function test for login, if added.</td><td>not tested (manual)</td></tr>
+<tr><td>4.1.3</td><td>Status Messages</td><td>Submit status is announced by screen readers (VoiceOver/TalkBack test).</td><td>not tested (manual)</td></tr>
+<tr><td>—</td><td>Assistive technology pass</td><td>Screen reader (NVDA/VoiceOver/TalkBack), zoom and voice control walkthrough.</td><td>not tested (manual)</td></tr>
+</tbody></table>
+<h2>Page screenshots</h2><figure><img src="screenshots/sauce-android-chrome-home-page.png" alt="Page screenshot: sauce-android-chrome-home-page.png" width="280"><figcaption>sauce-android-chrome-home-page.png</figcaption></figure><figure><img src="screenshots/sauce-desktop-chrome-home-page.png" alt="Page screenshot: sauce-desktop-chrome-home-page.png" width="280"><figcaption>sauce-desktop-chrome-home-page.png</figcaption></figure><figure><img src="screenshots/sauce-ios-safari-home-page.png" alt="Page screenshot: sauce-ios-safari-home-page.png" width="280"><figcaption>sauce-ios-safari-home-page.png</figcaption></figure>
+</main></body></html>
