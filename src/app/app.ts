@@ -8,5 +8,10 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('angular20-saucelabs-accessibility');
+  protected readonly submitted = signal(false);
+
+  protected submit(event: Event): void {
+    event.preventDefault();
+    this.submitted.set(true);
+  }
 }

@@ -20,6 +20,24 @@ describe('App', () => {
     const fixture = TestBed.createComponent(App);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, angular20-saucelabs-accessibility');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello World');
+  });
+
+  it('should label every form input', () => {
+    const fixture = TestBed.createComponent(App);
+    fixture.detectChanges();
+    const compiled = fixture.nativeElement as HTMLElement;
+    compiled.querySelectorAll('input').forEach((input) => {
+      expect(compiled.querySelector(`label[for="${input.id}"]`)).toBeTruthy();
+    });
+  });
+
+  it('should show a status message after submit', () => {
+    const fixture = TestBed.createComponent(App);
+    fixture.detectChanges();
+    const compiled = fixture.nativeElement as HTMLElement;
+    compiled.querySelector('form')?.dispatchEvent(new Event('submit'));
+    fixture.detectChanges();
+    expect(compiled.querySelector('[role="status"]')?.textContent).toContain('submitted');
   });
 });
